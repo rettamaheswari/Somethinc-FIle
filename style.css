@@ -1,0 +1,70 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.kotak {
+    background: linear-gradient(#F1CBE8, #CEAEEB);
+    height: 70px;
+    border-bottom: 1px solid;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav div img {
+    width: 165px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color:black;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(165, 42, 42, 0)
+}
+
+nav ul li a:hover {
+    color: brown;
+    border-bottom: 1px solid black
+}
+
+.content-best-seller {
+    padding: 1rem 2rem;
+    margin-top: 5%;
+}
+
+div h1 {
+    font-size: 180%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5%;
+}
+
+.content-about-us img {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.gambar-product {
+    background-image: url("low\ ph.jpg");
+    background-size: cover;
+}
