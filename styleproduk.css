@@ -53,7 +53,6 @@ nav ul li a:hover {
 
 .content-best-seller {
     padding: 1rem 2rem;
-    margin-top: 5%;
 }
 
 .card-body {
@@ -61,6 +60,7 @@ nav ul li a:hover {
 }
 
 div h1 {
+
     font-size: 180%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 5%;
@@ -86,6 +86,36 @@ div h1 {
     background-size: cover;
 }
 
+.gambar-product4 {
+    background-image: url("img/HOOMAN_UNDER_CONTROL_WEBSITE.jpg");
+    background-size: cover;
+}
+
+.gambar-product5 {
+    background-image: url("img/SS-TINT-COVER--VARIAN-BHI-02.jpg");
+    background-size: cover;
+}
+
+.gambar-product6 {
+    background-image: url("img/PDP-WHITEBG_CHECKMATTE-COVER-NEW.jpg");
+    background-size: cover;
+}
+
+.gambar-product7 {
+    background-image: url("img/WAXING_KIT.jpg");
+    background-size: cover;
+}
+
+.gambar-product8 {
+    background-image: url("img/Bust_Firming-2.png");
+    background-size: cover;
+}
+
+.gambar-product9 {
+    background-image: url("img/Axillary_Brightening_Cream1.jpg");
+    background-size: cover;
+}
+
 .kotak-about {
     background-color: #D9CCF4;
     padding: 1rem 3rem;
@@ -97,7 +127,7 @@ div h1 {
 }
 
 .footer-container {
-    margin-top: 5%;
+    margin-top: 15%;
     background-color: #BFAEDB;
     width: 100%;
     padding: 1rem 2rem;
